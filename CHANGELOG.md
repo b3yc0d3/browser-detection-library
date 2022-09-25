@@ -15,3 +15,14 @@ TEMPLATE
 
 ### Security
 -->
+
+## [0.1.0] - 2022-09-26
+
+### Added
+- Added function `browser`
+- Added function `getName`
+- Support for Brave
+- Support for Chromium
+- Support for FireFox
+- Support for Opera
+- Added Documantion

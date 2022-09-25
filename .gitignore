@@ -1,4 +1,5 @@
 # directories
+build/
 node_modules/
 jspm_packages/
 
