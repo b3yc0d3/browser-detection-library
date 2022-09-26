@@ -13,10 +13,14 @@ Fast and Lightweight way to detect what browser is used.
 ## Browser Support
 | Browser | Version | Architecture | Status |
 |:--------|:--------|:-------------|:-------|
-| Brave | 1.43.93 (Chromium: 105.0.5195.127) | 64-Bit | Success |
-| Chromium | 105.0.5195.125 | 64-Bit | Success |
-| FireFox | 105.0 | 64-Bit | Success |
-| Opera | 90.0.4480.84 | 64-bit | Success |
+| Brave | 1.43.93 (Chromium: 105.0.5195.127) | x86_64 | Success |
+| Chromium | 105.0.5195.125 | x86_64 | Success |
+| Microsoft Edge | 105.0.1343.50 | x86_64 | Success |
+| FireFox | 105.0 | x86_64 | Success |
+| IE 11 | 11.09600.17416 | x86_64 | Success |
+| Opera | 90.0.4480.84 | x86_64 | Success |
+| Safari | 13.1.3 (15609.4.1) | x86_64 | Success |
+
 
 ## Documentation
 [Current documentation](/docs)
@@ -34,7 +38,8 @@ The build filed are:
 - `bdl.min.js.map`
 
 A working example demo can be found in:<br>
-`/demo`
+`/demo`<br>
+*Bulding required before useable; [CLICK](#build-it-your-self)*
 
 ## Credits
 ### Logo:

@@ -6,19 +6,20 @@ Project Description
 
 ### Todo
 
-- [ ] Add Egde Chromium Support  
+- [ ] Find an better way to check for Edge (Chromium)  
 - [ ] Add Edge Support  
-- [ ] Add Safari Support  
 
 ### In Progress
 
-- [ ] Add Chrome Support  
-- [ ] Add Opera Support  
-- [ ] Add Internet Explorer Support  
 
 ### Done ✓
 
-- [x] Add FireFox Support  
-- [x] Add Brave Support  
+- [x] Add Chrome Support  
 - [x] Add Chromium Support  
+- [x] Add Egde Chromium Support  
+- [x] Add Brave Support  
+- [x] Add FireFox Support  
+- [x] Add Opera Support  
+- [x] Add Safari Support  
+- [x] Add Internet Explorer Support  
 

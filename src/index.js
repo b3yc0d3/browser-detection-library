@@ -2,21 +2,30 @@ import { browserId2Name } from './browser-names';
 /**
  * Get id of currenty browser
  * 
- * Function will return 'undefined' if browser could not be detected.
- * 
- * @returns {Number} Browser Id
+ * @returns {Number} Browser Id ('undefined' if browser is could not be detected).
  */
 export function browser() {
     var is_firefox = typeof InstallTrigger !== 'undefined';
-    var is_safari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+    var is_safari = !!window.safari && !!window.ApplePayError;
     var is_chromium = !!window.chrome && !window.opr;
-    var is_brave = (!!navigator.brave || (!!window.ethereum && !!ethereum.isBraveWallet)) && is_chromium;
-    var is_opera = (!!window.opr) && !!window.chrome;
-    var is_ie = /*@cc_on*/true && !window.opr;
+    var is_brave = (!!navigator.brave && !!window.braveSolana || (!!window.ethereum && !!ethereum.isBraveWallet)) && is_chromium;
+    var is_opera = !!window.opr && !!window.chrome;
+    /**
+     * Currently using 'XRHand' to detect Edge-Chromium,
+     * somehow MS Edge has 'XRHand' even tho it is not supported
+     * officlay
+     * 
+     * See: https://developer.mozilla.org/en-US/docs/Web/API/XRHand#browser_compatibility
+     * 
+     * TODO: find an better way to check for Edge (Chromium)
+     */
+    var is_edgeChrome = !!window.XRHand && (!!window.XRJointPose || !!window.XRJointSpace) && is_chromium;
+    var is_ie = !!window.document.documentMode;
 
     var loop_list = [
         { state: is_brave, id: 0 },
         { state: is_opera, id: 5 },
+        { state: is_edgeChrome, id: 7 },
         { state: is_chromium, id: 1 },
         { state: is_firefox, id: 3 },
         { state: is_safari, id: 4 },

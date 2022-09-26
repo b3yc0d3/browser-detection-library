@@ -10,7 +10,7 @@ if (!fs.existsSync(p_build)) {
 
 module.exports = {
     mode: "production",
-    target: "web",
+    target: ["web", "es5"],
     devtool: "source-map",
     entry: {
         "bdl": path.resolve(__dirname, "/src/index.js"),

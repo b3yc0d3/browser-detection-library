@@ -7,6 +7,6 @@ export var browserId2Name = {
     5: 'Opera',
     6: 'Edge',
     7: 'Edge-Chromium',
-    8: 'IE',
+    8: 'IE11',
     9: 'IE8'
 }

@@ -16,6 +16,18 @@ TEMPLATE
 ### Security
 -->
 
+## [0.1.1] - 2022-09-26
+
+### Added
+- Support for Safari
+- Support for Microsoft Edge (Chromium)
+- Support for IE 11
+- Added [`BrowserId`](docs/README.md#browserids) table to Documentation
+- Added [GALLERY.md](GALLERY.md)
+
+### Changed
+- Made webpack config `es5` compatible
+
 ## [0.1.0] - 2022-09-26
 
 ### Added
