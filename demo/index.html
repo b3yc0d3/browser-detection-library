@@ -145,7 +145,7 @@
 
     <script>
         window.addEventListener("DOMContentLoaded", () => {
-            const bname = bdl.getName(bdl.browser());
+            const bname = bdl.browser.name;
 
             document.getElementById("message").innerHTML = `You are using <b>${bname}</b>`;
             if (bname != 'unkown') {

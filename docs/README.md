@@ -1,32 +1,59 @@
 # Browser Detection Library
 
-## Values
+- [Browser Detection Library](#browser-detection-library)
+  - [`bdl`](#bdl)
+    - [`bdl.browser`](#bdlbrowser)
+    - [`bdl.browser.name`](#bdlbrowsername)
+    - [`bdl.browser.vendor`](#bdlbrowservendor)
+    - [`bdl.browser.id`](#bdlbrowserid)
+  - [Browser Ids](#browser-ids)
 
-### BrowserIds
-| ID | Name |
-|---:|:-----|
-| 0 | Brave |
-| 1 | Chromium |
-| 2 | Chrome |
-| 3 | FireFox |
-| 4 | Safari |
-| 5 | Opera |
-| 6 | Edge |
-| 7 | Edge-Chromium |
-| 8 | IE 11 |
-| 9 | IE 8 |
+## `bdl`
 
-## Static Methods
-The `bdl` class has the following static methods:
+### `bdl.browser`
+This object has the following functions.
 
-### `bdl.browser()`
-Get id of current browser.
+### `bdl.browser.name`
+Get name of browser.<br>
+Returns: `String | undefined` - The Browser name, if posible, or `undefined`.
 
-Returns `BrowserId | undefined` The BrowserId, if posible, or `undefined`
+### `bdl.browser.vendor`
+Get the browsers vendor(s).<br>
+Returns: `String | Array | undefined` - The browsers vendor(s), if posible, or `undefined`.
 
-### `bdl.getName(browserId)`
-* `browserId` BrowserId
+### `bdl.browser.id`
+Get the internal browser id.<br>
+*See*: [Browser Ids](#bdlbrowserid)<br>
+Returns: `Number | undefined` - The browsers internal id, if posible, or `undefined`.
 
-Convert browser id to Human format.
 
-Returns `BrowserName | undefined` - The Name of the Browser, if posible, or `undefined`
+## Browser Ids
+This ids are **only** used internally to identify each browser. The ids <u>**may change**</u> in the future.<br>
+*The ids are `crc32` Hashes*
+| Id       | Browser         |
+| -------- | --------------- |
+| 7d952f3f | Brave           |
+| 1e115537 | Chromium        |
+| a257ca8d | Chrome          |
+| 6cc0cdd0 | FireFox         |
+| cd2e422a | Safari          |
+| c5bb67fa | Opera           |
+| b3ee66ee | Edge            |
+| 050d2b13 | Edge (Chromium) |
+| cb14225b | IE11            |
+| 80ab4391 | IE8             |
+
+<!--
+WILL MAY BE USED
+
+## Vendor Ids
+*The ids are `crc32` Hashes*
+| Id       | Vendor                                      |
+| -------- | ------------------------------------------- |
+| 18548a5c | Brave Software Inc.                         |
+| 937cb344 | Chromium Project                            |
+| 8e6b7a10 | Google LLC                                  |
+| da2659c6 | Mozilla Corporation <br> Mozilla Foundation |
+| 059d2289 | Apple Inc.                                  |
+| 13775fee | Opera Software                              |
+| 3fac4e54 | Microsoft                                   |-->

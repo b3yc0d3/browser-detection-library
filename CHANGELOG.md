@@ -16,14 +16,29 @@ TEMPLATE
 ### Security
 -->
 
+## [1.0.0] - 2022-10-02
+
+### Added
+- Added `browser` sub-object to `bdl`
+- Added `vendor` to `browser` sub-object 
+
+### Changed
+- Moved `getName()` into `browser` sub-object as `name`
+- Moved `browser()` into `browser` sub-object as `id`
+- Updated [Documentation](https://github.com/b3yc0d3/browser-detection-library/blob/master/docs/README.md)
+- Updated Demo
+- Changed Browser Ids from Numeric Id to Hexadecimal hash of names
+- Updated [`Browser Id`](https://github.com/b3yc0d3/browser-detection-library/blob/master/docs/README.md#browser-ids) table
+
+
 ## [0.1.1] - 2022-09-26
 
 ### Added
 - Support for Safari
 - Support for Microsoft Edge (Chromium)
 - Support for IE 11
-- Added [`BrowserId`](docs/README.md#browserids) table to Documentation
-- Added [GALLERY.md](GALLERY.md)
+- Added [`BrowserId`](https://github.com/b3yc0d3/browser-detection-library/blob/master/docs/README.md#browser-ids) table to Documentation
+- Added [GALLERY.md](https://github.com/b3yc0d3/browser-detection-library/blob/master/GALLERY.md)
 
 ### Changed
 - Made webpack config `es5` compatible
