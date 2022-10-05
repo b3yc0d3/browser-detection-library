@@ -8,7 +8,8 @@ const browserNames = {
     'b3ee66ee': 'Edge',
     '050d2b13': 'Edge (Chromium)',
     'cb14225b': 'IE11',
-    '80ab4391': 'IE8'
+    '80ab4391': 'IE8',
+    '9e236177': 'Konqueror'
 }
 
 export function _browserName(id) {

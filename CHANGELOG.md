@@ -11,10 +11,15 @@ TEMPLATE
 
 ### Changed
 
-### Fixed
-
 ### Security
 -->
+
+## [1.0.1] - 2022-10-05
+
+### Changed
+- Fixed Brave detection bug
+- Fixed broken class names in Demo example
+
 
 ## [1.0.0] - 2022-10-02
 

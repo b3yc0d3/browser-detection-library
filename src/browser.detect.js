@@ -2,7 +2,7 @@ export function _detectBrowser() {
     var is_firefox = typeof InstallTrigger !== 'undefined';
     var is_safari = !!window.safari && !!window.ApplePayError;
     var is_chromium = !!window.chrome && !window.opr;
-    var is_brave = (!!navigator.brave && !!window.braveSolana || (!!window.ethereum && !!ethereum.isBraveWallet)) && is_chromium;
+    var is_brave = !!navigator.brave && is_chromium;
     var is_opera = !!window.opr && !!window.chrome;
     /**
      * Currently using 'XRHand' to detect Edge-Chromium,

@@ -1,6 +1,6 @@
 {
   "name": "bdl.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fast and Lightweight way to detect what browser is used.",
   "main": "index.js",
   "scripts": {

@@ -116,7 +116,7 @@
                 <img src="logos/edge-alt.svg">
             </div>
 
-            <div class="browser" id="browser-edge-chromium">
+            <div class="browser" id="browser-edge-(chromium)">
                 <img src="logos/egde.svg">
             </div>
 
@@ -148,8 +148,8 @@
             const bname = bdl.browser.name;
 
             document.getElementById("message").innerHTML = `You are using <b>${bname}</b>`;
-            if (bname != 'unkown') {
-                document.getElementById("browser-" + bname.toLowerCase()).classList.add("selected");
+            if (bname != undefined) {
+                document.getElementById("browser-" + bname.toLowerCase().replace(' ', '-')).classList.add("selected");
             }
         })
     </script>
