@@ -28,6 +28,7 @@ Returns: `Number | undefined` - The browsers internal id, if posible, or `undefi
 
 
 ## Browser Ids
+<!-- http://www.sha1-online.com/ -->
 This ids are **only** used internally to identify each browser. The ids <u>**may change**</u> in the future.<br>
 *The ids are `crc32` Hashes*
 | Id       | Browser         |
@@ -35,6 +36,7 @@ This ids are **only** used internally to identify each browser. The ids <u>**may
 | 7d952f3f | Brave           |
 | 1e115537 | Chromium        |
 | a257ca8d | Chrome          |
+| eb2cb20f | DuckDuckGo App  |
 | 6cc0cdd0 | FireFox         |
 | cd2e422a | Safari          |
 | c5bb67fa | Opera           |
@@ -56,4 +58,6 @@ WILL MAY BE USED
 | da2659c6 | Mozilla Corporation <br> Mozilla Foundation |
 | 059d2289 | Apple Inc.                                  |
 | 13775fee | Opera Software                              |
-| 3fac4e54 | Microsoft                                   |-->
+| 13775fee | Opera Software                              |
+| 3fac4e54 | Microsoft                                   |
+| 31d367a9 | Duck Duck Go Inc.                           | -->

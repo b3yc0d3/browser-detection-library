@@ -52,7 +52,12 @@ Here you can find screenshots of every supported browser.
 <figcaption>Safari</figcaption>
 </figure>
 </td>
-<td></td>
+<td>
+<figure class="image">
+<img height="256px" src="assets/screenshots/Screenshot_20221112_142655.png" alt="DuckDuckGo">
+<figcaption>DuckDuckGo</figcaption>
+</figure>
+</td>
 </tr>
 </tbody>
 </table>

@@ -9,6 +9,7 @@ const _vendors = {
     '050d2b13': 'Microsoft',
     'cb14225b': 'Microsoft',
     '80ab4391': 'Microsoft',
+    'aa950033': 'Duck Duck Go Inc.'
 }
 
 export function _browserVendor(id) {

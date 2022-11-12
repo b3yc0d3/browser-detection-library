@@ -14,6 +14,16 @@ TEMPLATE
 ### Security
 -->
 
+## [1.1.0] - 2022-11-12
+
+## Added
+- DuckDuckGo Browser detection
+- Added DuckDuckGo Screenshot
+
+## Changed
+- Made DEMO responsive for mobile devices
+- Updated Documentation
+
 ## [1.0.1] - 2022-10-05
 
 ### Changed

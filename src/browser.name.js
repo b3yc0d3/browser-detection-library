@@ -2,6 +2,7 @@ const browserNames = {
     '7d952f3f': 'Brave',
     '1e115537': 'Chromium',
     'a257ca8d': 'Chrome',
+    'eb2cb20f': 'DuckDuckGo',
     '6cc0cdd0': 'FireFox',
     'cd2e422a': 'Safari',
     'c5bb67fa': 'Opera',

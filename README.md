@@ -3,28 +3,28 @@
 </p>
 
 [![Version](https://img.shields.io/github/package-json/v/b3yc0d3/browser-detection-library)](https://github.com/b3yc0d3/browser-detection-library/blob/master/CHANGELOG.md)
-![Browsers](https://img.shields.io/badge/browser-brave%20%7C%20chromium%20%7C%20edge%20%7C%20firefox%20%7C%20ie11%20%7C%20opera%20%7C%20safari-lightgrey)
+![Browsers](https://img.shields.io/badge/browser-brave%20%7C%20chromium%20%7C%20edge%20%7C%20firefox%20%7C%20ie11%20%7C%20opera%20%7C%20safari%20%7C%20duckduckgo-lightgrey)
 [![MPL-2.0](https://img.shields.io/github/license/b3yc0d3/browser-detection-library)](https://github.com/b3yc0d3/browser-detection-library/blob/master/LICENSE)
 
 
 # browser-detection-library
-
-Fast and Lightweight way to detect what browser is used.
+Fast and Lightweight way to detect browsers.
 
 
 ## Browser Support
-| Browser | Version | Architecture | Status |
-|:--------|:--------|:-------------|:-------|
-| Brave | 1.43.93 (Chromium: 105.0.5195.127) | x86_64 | Success |
-| Chromium | 105.0.5195.125 | x86_64 | Success |
-| Microsoft Edge | 105.0.1343.50 | x86_64 | Success |
-| FireFox | 105.0 | x86_64 | Success |
-| IE 11 | 11.09600.17416 | x86_64 | Success |
-| Opera | 90.0.4480.84 | x86_64 | Success |
-| Safari | 13.1.3 (15609.4.1) | x86_64 | Success |
+| Browser        | Version                            | Architecture | Status  |
+| :------------- | :--------------------------------- | :----------- | :------ |
+| Brave          | 1.43.93 (Chromium: 105.0.5195.127) | x86_64       | Success |
+| Chromium       | 105.0.5195.125                     | x86_64       | Success |
+| Microsoft Edge | 105.0.1343.50                      | x86_64       | Success |
+| FireFox        | 105.0                              | x86_64, ARM  | Success |
+| IE 11          | 11.09600.17416                     | x86_64       | Success |
+| Opera          | 90.0.4480.84                       | x86_64       | Success |
+| Safari         | 13.1.3 (15609.4.1)                 | x86_64       | Success |
+| DuckDuckGo     | 5 (107.0.5304.105)                 | ARM          | Success |
 
 ***Your needed browser isn't supported yet?***<br>
-***Then feel free to create a feature request.***
+***Create a feature request!***
 
 
 ## Documentation
@@ -32,19 +32,14 @@ Fast and Lightweight way to detect what browser is used.
 
 
 ## Build it your self
-1. You need to download / clone this repository.
-2. Navigate in the *browser-detection-library* folder on your system.
-3. Install needed npm packages with `npm i`.
-4. Build the library with `npm run build`.
-
-The build filed are:
-- `bdl.js`
-- `bdl.js.map`
-- `bdl.min.js` (minifed version)
-- `bdl.min.js.map`
-
-A working example demo can be found in:<br>
-`/demo`<br>
+```console
+$ clone https://github.com/b3yc0d3/browser-detection-library.git
+$ cd browser-detection-library
+$ npm i
+$ npm run build
+```
+The build files are be found in `build/`<br>
+A working example demo can be found in: `demo/`<br>
 *Bulding required before useable; [CLICK](#build-it-your-self)*
 
 
