@@ -1,16 +1,15 @@
 # Browser Detection Library
 
 - [Browser Detection Library](#browser-detection-library)
-  - [`bdl`](#bdl)
-    - [`bdl.browser`](#bdlbrowser)
-    - [`bdl.browser.name`](#bdlbrowsername)
-    - [`bdl.browser.vendor`](#bdlbrowservendor)
-    - [`bdl.browser.id`](#bdlbrowserid)
+    - [`browser`](#bdlbrowser)
+      - [`name`](#bdlbrowsername)
+      - [`vendor`](#bdlbrowservendor)
+      - [`id`](#bdlbrowserid)
+    - [`Device`](#bdldevice)
+      - [`ip`]()
   - [Browser Ids](#browser-ids)
 
-## `bdl`
-
-### `bdl.browser`
+## `bdl.browser`
 This object has the following functions.
 
 ### `bdl.browser.name`
@@ -26,6 +25,13 @@ Get the internal browser id.<br>
 *See*: [Browser Ids](#bdlbrowserid)<br>
 Returns: `Number | undefined` - The browsers internal id, if posible, or `undefined`.
 
+
+## `bdl.device`
+This object has the following functions.
+
+### `bdl.device.ip()`
+Get the local ip of a device.<br>
+Returns: `Promise`.
 
 ## Browser Ids
 <!-- http://www.sha1-online.com/ -->
