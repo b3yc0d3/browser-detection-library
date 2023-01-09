@@ -6,8 +6,8 @@ Project Description
 
 ### Todo
 
+- [ ] Add UC Support  
 - [ ] Find an better way to check for Edge (Chromium)  
-- [ ] Add Edge Support  
 
 ### In Progress
 

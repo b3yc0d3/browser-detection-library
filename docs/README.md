@@ -58,7 +58,7 @@ This ids are **only** used internally to identify each browser. The ids <u>**may
     <tr id="devices">
       <td style="border: 1px solid #ddd;padding: 8px;"></td>
       <td colspan="5" style="text-align: center;border: 1px solid #ddd;padding: 8px;">Desktop/Laptop</td>
-      <td colspan="2" style="text-align: center;border: 1px solid #ddd;padding: 8px;">Mobile</td>
+      <td colspan="6" style="text-align: center;border: 1px solid #ddd;padding: 8px;">Mobile</td>
     </tr>
     <tr id="names">
       <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;"></td>
@@ -77,54 +77,82 @@ This ids are **only** used internally to identify each browser. The ids <u>**may
       <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
           <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">Safari</div>
       </td>
-      <td style="border: 1px solid #ddd;padding: 8px;"vertical-align: bottom;>
+      <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
           <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">DuckDuckGo</div>
       </td>
-      <td style="border: 1px solid #ddd;padding: 8px;"vertical-align: bottom;>
+      <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
           <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">Chrome</div>
+      </td>
+      <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
+          <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">Brave</div>
+      </td>
+      <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
+          <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">FireFox</div>
+      </td>
+      <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
+          <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">FireFox Klar</div>
+      </td>
+      <td style="border: 1px solid #ddd;padding: 8px;vertical-align: bottom;">
+          <div style="left: calc(50% - .5rem);line-height: 1;position: relative;transform: rotate(180deg);white-space: nowrap;writing-mode: vertical-rl;text-align: left;">Samsung Internet</div>
       </td>
     </tr>
   </thead>
   <tbody>
     <tr style="text-align: center;">
       <td style="border: 1px solid #ddd;padding: 8px;"><code>browser.name</code></td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
     </tr>
     <tr style="text-align: center;">
       <td style="border: 1px solid #ddd;padding: 8px;"><code>browser.vendor</code></td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
     </tr>
     <tr style="text-align: center;">
       <td style="border: 1px solid #ddd;padding: 8px;"><code>browser.id</code></td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
     </tr>
     <tr style="text-align: center;">
       <td style="border: 1px solid #ddd;padding: 8px;"><code>device.ip</code></td>
-      <td style="border: 1px solid #ddd;padding: 8px;">No</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">No</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">No</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">No</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">No</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
-      <td style="border: 1px solid #ddd;padding: 8px;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#e5534b;">No</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
+      <td style="border: 1px solid #ddd;padding: 8px;color:#46954a;">Yes</td>
     </tr>
   </tbody>
 </table>
