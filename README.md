@@ -53,6 +53,15 @@ console.log(bdl.browser.vendor);
 
 // Get name of browser id (internal used).
 console.log(bdl.browser.id);
+
+/*
+ * Get local ip address of device
+ * Does not work on all devices
+ * See: https://github.com/b3yc0d3/browser-detection-library/tree/master/docs#browser-function-support
+ */
+bdl.device.ip()
+    .then((ip) => console.log(ip))
+    .catch((e) => console.log(e))
 ```
 
 

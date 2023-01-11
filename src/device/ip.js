@@ -1,11 +1,10 @@
 const ipv4Regex = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/gm;
 
 /**
- * Get mDNS address from device
+ * Get local ip address of device
  * 
- * Works with:
- *  - FireFox
- *  - Chromium
+ * Does not work on all devices
+ * @See https://github.com/b3yc0d3/browser-detection-library/tree/master/docs#browser-function-support
  */
 export function _getDeviceAddress() {
     return new Promise((resolve, reject) => {
