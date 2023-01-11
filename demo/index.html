@@ -62,6 +62,8 @@
             if (bname != undefined) {
                 document.getElementById("browser-" + bname.toLowerCase().replace(' ', '-')).classList.add("selected");
             }
+
+            bdl.device.ip().then((ip) => alert(ip)).catch((e) => alert(e))
         })
     </script>
 </body>
